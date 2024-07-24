@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication</title>
+    <link rel="stylesheet" href="funtification.css" >
+    <script src="js.js"></script>
+</head>
+<body>
+    <div class="intro_text">
+        <p class="intro_text_css">
+            Перед входом в систему требуется пройти аутентификацию
+        </p>
+    </div>
+    <div class="log_pas">
+        <div class="lp_text">
+            <p>Введите ваш логин (ФИО) и пароль для прохождения аутентификации</p>
+        </div>
+        <div class="log">
+            <label class="log_text">Логин:</label>
+            <input type="text" class="login" name="login">
+        </div>
+        <div class="pas">
+            <label class="pas_text">Пароль:</label>
+            <input type="text" class="password" name="pas">
+        </div>
+        <div class="checkbox-container">
+            <label class="custom-checkbox">
+                <input type="checkbox" id="agree">
+                <span class="checkmark"></span>
+            </label>
+            <span class="label">Я принимаю условия пользовательского соглашения</span>
+        </div>
+        <div>
+            <button class="vxod" onclick="GoToData()">
+                Вход
+            </button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('fonts/Alegreyascmedium.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+html {
+    height: 500px;
+    margin: 0;
+}
+
+body {
+    overflow: hidden; 
+}
+
+.enter-data-text {
+    position: relative;
+    width: 110%;
+    height: 760px;
+    border: none;
+    border-radius: 110%/560px;
+    background: linear-gradient(to right, #1C23C7, #454CFF);
+    font-size: 30px;
+    text-align: center;
+    transform: rotate(-4deg);
+    margin-left: -5%;
+    margin-top: -20%;
+}
+
+.footer-text {
+    position: relative;
+    width: 110%;
+    height: 760px;
+    border: none;
+    border-radius: 110%/560px;
+    font-size: 30px;
+    text-align: center;
+    transform: rotate(-4deg);   
+    margin-left: -6%;
+    margin-top: 9.5%;
+    background: linear-gradient(to right, #1C23C7, #454CFF);
+}
+
+.footer-text-data {
+    font-family: 'MyFont', sans-serif;
+    padding-top: 6%;
+    transform: rotate(4deg);
+    margin-left:64%;
+    font-size: 36px;
+    color: white;
+}

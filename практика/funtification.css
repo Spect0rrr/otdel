@@ -1,0 +1,188 @@
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url('rf_flag.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.intro_text {
+    display: flex;
+    position: relative;
+    height: 137px;
+    background-color: #FCFCFC;
+    width: 818px;
+    border-radius: 64px; 
+    justify-content: center; 
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 6%;
+}
+
+.intro_text_css {
+    color: #1D1D1D;
+    font-size: 32px;
+    text-align: center;
+    font-family: 'MyFont', sans-serif;
+}
+
+@font-face {
+    font-family: 'MyFont';
+    src: url('fonts/Alegreyascmedium.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.log_pas {
+    position: relative;
+    display: flex;
+    width: 818px;
+    height: 435px;
+    background-color: #FCFCFC;
+    margin: 0 auto;
+    margin-top: 68px;
+    border-radius: 64px; 
+    flex-direction: column;
+}
+
+.lp_text {
+    text-align: center;
+    font-family: 'MyFont', sans-serif;
+    font-size: 28px;
+    font-weight: lighter;
+    width: 100%;
+    color: #1D1D1D;
+}
+
+.log_text {
+    color: #1D1D1D;
+    font-size: 24px;
+    font-family: 'MyFont', sans-serif;
+    margin-left: 30px;
+}
+
+.login {
+    position: absolute;
+    width: 254px;
+    height: 33px;
+    border-radius: 19px;
+    background-color: #e7f7f5;
+    box-shadow: 2px 5px 10px 0px rgba(114, 165, 223, 0.7);
+    border: none;
+    padding-left: 20px;
+    font-family: 'MyFont', sans-serif;
+    font-size: 18px;
+    margin-left: 42px;
+    margin-top: -3px;
+}
+
+.log {
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.pas {
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.pas_text {
+    color: #1D1D1D;
+    font-size: 24px;
+    font-family: 'MyFont', sans-serif;
+    margin-left: 30px;
+}
+
+.password {
+    position: absolute;
+    width: 254px;
+    height: 33px;
+    border-radius: 19px;
+    background-color: #e7f7f5;
+    box-shadow: 2px 5px 10px 0px rgba(114, 165, 223, 0.7);
+    border: none;
+    padding-left: 20px;
+    font-family: 'MyFont', sans-serif;
+    font-size: 18px;
+    margin-left: 36px;
+    margin-top: -3px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 37px;
+}
+
+.custom-checkbox {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: #eee;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.custom-checkbox input[type="checkbox"] {
+    display: none; /* Скрываем стандартный чекбокс */
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkmark:after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border: solid #4CAF50;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+    display: none;
+}
+
+.custom-checkbox input[type="checkbox"]:checked ~ .checkmark:after {
+    display: block; /* Показываем галочку при проверке чекбокса */
+}
+
+.label {
+    position: relative;
+    margin-left: 18px;
+    font-family: 'MyFont', sans-serif;
+    font-size: 18px;
+}
+
+.vxod {
+    position: relative;
+    width: 175px;
+    height: 41px;
+    background-color: #1C4FD1;
+    text-align: center;
+    border: none;
+    border-radius: 32px;
+    color: white;
+    font-family: 'MyFont', sans-serif;
+    font-size: 24px;
+    font-weight: 100;
+    margin-top: 30px;
+    margin-left: 600px;
+    transition: all 0.5 ease;
+}
+
+.vxod:hover {
+    transform: scale(1.1);
+}

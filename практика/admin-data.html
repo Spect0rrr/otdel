@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poxui</title>
+    <link rel="stylesheet" href="admin-data.css" >
+    <script src="js.js"></script>
+</head>
+<body>
+    <div class="enter-data-text">
+        <p class="header-data">Введите требуемую начальную и конечную даты для полученипя искомой информации</p>
+    </div>
+    <div class="start-and-end-dates">
+        <div class="input-start">
+            <label class="start-data-label">Начальная дата:</label>
+            <input type="text" class="start-data-label-css" name="start-data-label">
+        </div>
+        <div class="input-end">
+            <label class="end-data-label">Конечная дата:</label>
+            <input type="text" class="end-data-label-css" name="end-data-label">
+        </div>
+        <div>
+            <button class="poisk" onclick="GoToAdminData()">
+                Поиск
+            </button>
+        </div>
+    </div>
+    <div class="admin-text-div">
+        <p class="admin-text">Вам предоставлены права админского доступа, нажмите на кнопу для добавления или удаления данных</p>
+    </div>
+    <div>
+        <button class="perexod" onclick="AdminPanel()">
+            Перейти
+        </button>
+    </div>
+    <div class="footer-text">
+        <p class="footer-text-data">Иванов Иван Иваныч</p>
+    </div>
+</body>
+</html>

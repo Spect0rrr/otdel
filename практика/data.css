@@ -1,0 +1,156 @@
+html {
+    height: 500px;
+    margin: 0;
+}
+
+body {
+    overflow: hidden; 
+}
+
+.enter-data-text {
+    position: relative;
+    width: 110%;
+    height: 760px;
+    border: none;
+    border-radius: 110%/560px;
+    background: linear-gradient(to right, #1C23C7, #454CFF);
+    font-size: 30px;
+    text-align: center;
+    transform: rotate(-4deg);
+    margin-left: -5%;
+    margin-top: -20%;
+}
+
+@font-face {
+    font-family: 'MyFont';
+    src: url('fonts/Alegreyascmedium.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.header-data {
+    font-family: 'MyFont', sans-serif;
+    padding-top: 18%;
+    transform: rotate(4deg);
+    margin-left: -35%;
+    font-size: 36px;
+    color: white;
+}
+
+.start-and-end-dates {
+    position: relative;
+    display: flex;
+    width: 791px;
+    height: 277px;
+    background-color: #DFE5F5;
+    border-radius: 34px;
+    /* justify-content: center;  */
+    /* align-items: center; */
+    margin: 0 auto;
+    margin-top: 9%;
+    flex-direction: column;
+}
+
+/* .start-data-text { 
+    font-family: 'MyFont', sans-serif;
+    font-size: 32px;
+    padding-top: 28px;
+    padding-left: 48px;
+} */
+
+.input-start {
+    position: relative;
+    padding-top: 35px;
+    padding-left: 48px;
+}
+
+.start-data-label {
+    font-family: 'MyFont', sans-serif;
+    font-size: 32px;
+}
+
+.start-data-label-css {
+    position: absolute;
+    width: 320px;
+    height: 44px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 5px 10px 0px rgba(114, 165, 223, 0.5);
+    margin-top: -3px;
+    margin-left: 55px;
+    font-family: 'MyFont', sans-serif;
+    font-size: 28px;
+    padding-left: 20px;
+}
+
+.input-end {
+    position: relative;
+    padding-top: 48px;
+    padding-left: 48px;
+}
+
+.end-data-label {
+    font-family: 'MyFont', sans-serif;
+    font-size: 32px;
+}
+
+.end-data-label-css {
+    position: absolute;
+    width: 320px;
+    height: 44px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 5px 10px 0px rgba(114, 165, 223, 0.5);
+    margin-top: -3px;
+    margin-left: 70px;
+    font-family: 'MyFont', sans-serif;
+    font-size: 28px;
+    padding-left: 20px;
+}
+
+.footer-text {
+    position: relative;
+    width: 110%;
+    height: 760px;
+    border: none;
+    border-radius: 110%/560px;
+    font-size: 30px;
+    text-align: center;
+    transform: rotate(-4deg);   
+    margin-left: -6%;
+    margin-top: 9.5%;
+    background: linear-gradient(to right, #1C23C7, #454CFF);
+}
+
+.poisk {
+    position: relative;
+    width: 175px;
+    height: 41px;
+    background-color: #1C4FD1;
+    text-align: center;
+    border: none;
+    border-radius: 32px;
+    color: white;
+    font-family: 'MyFont', sans-serif;
+    font-size: 24px;
+    font-weight: 100;
+    margin-top: 30px;
+    margin-left: 580px;
+    transition: all 0.5 ease;
+    z-index: 0;
+}
+
+.poisk:hover {
+    transform: scale(1.1);
+}
+
+.footer-text-data {
+    font-family: 'MyFont', sans-serif;
+    padding-top: 6%;
+    transform: rotate(4deg);
+    margin-left:64%;
+    font-size: 36px;
+    color: white;
+}
